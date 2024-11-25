@@ -1,0 +1,10 @@
+*.pyc
+__pycache__/
+db.sqlite3
+.venv/
+.env/
+paymob_integration/settings/*.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
