@@ -1,11 +1,21 @@
+# Ignore Python bytecode files
 *.pyc
 __pycache__/
+
+# Ignore the local SQLite database
 db.sqlite3
+
+# Ignore the virtual environment
 .venv/
-.env/
+
+# Ignore environment variable files
+.env
 paymob_integration/settings/*.env
+
+# Ignore IDE/editor-specific files
 .vscode/
 .idea/
+
+# Ignore system files
 .DS_Store
 Thumbs.db
-.env
